@@ -10,10 +10,10 @@ import './App.css'
 function App() {
   return (
     <Routes>
-      {/* 1. نفتح مسار الـ Layout الرئيسي هنا ليكون مظلة لكل الصفحات */}
+  
       <Route path="/" element={<Layout />}>
         
-        {/* 2. نضع الصفحات الفرعية بداخله، وبدون كتابة سلاش / قبل الروابط الفرعية */}
+        
         <Route index element={<Home />} />
         <Route path="about" element={<HeroSection />} />
         <Route path="contact" element={<Contact />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="careers" element={<Articles isPage={true} />} />
 
         
-      </Route> {/* 3. نغلق مسار الـ Layout الرئيسي هنا */}
+      </Route> 
     </Routes>
   )
 }
