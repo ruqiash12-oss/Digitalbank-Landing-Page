@@ -9,8 +9,6 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 
 ## Overview
@@ -25,9 +23,7 @@ Users should be able to:
 - Use a fully interactive and responsive mobile menu modal on smaller screens.
 
 ### Links
-
-- Solution URL: [https://github.com](https://github.com)
-- Live Site URL: [https://your-digitalbank-live-site.com](https://your-digitalbank-live-site.com)
+- Live Site URL: (https://ruqiash12-oss.github.io/Digitalbank-Landing-Page/)
 
 ## My process
 
@@ -59,15 +55,8 @@ export default function Features({ isPage = false }) {
 }
 ```
 
-### AI Collaboration
-
-During the development of this project, I collaborated effectively with an AI assistant to overcome challenges and refine my workflow:
-
-- **Architecture Planning:** The AI helped me reorganize the directory structure cleanly between structural elements (`components/Layout.jsx`) and viewports (`pages/`).
-- **Debugging Routing Errors:** Resolved configuration errors regarding nested route declarations (`path index` syntax fix) and absolute/relative path properties in React Router v6.
-- **State Management & Refactoring:** Assisted in converting a hardcoded desktop navbar and mobile layout into a dynamic, mapping-driven list system to allow future expansion with minimal code overhead.
 
 ## Author
 
-- Website - [Your Name Here](https://your-portfolio.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [@ruqiash12-oss](https://github.com/ruqiash12-oss)
+- Frontend Mentor - [@ruqiash12-oss](https://www.frontendmentor.io/profile/ruqiash12-oss)
