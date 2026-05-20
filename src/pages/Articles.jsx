@@ -3,7 +3,6 @@ import restaurant from '../assets/images/image-restaurant.jpg';
 import plane from '../assets/images/image-plane.jpg';
 import confetti from '../assets/images/image-confetti.jpg';
 
-// أضفنا الـ Prop هنا: isPage
 export default function Articles({ isPage = false }) {
   
   const articles = [
