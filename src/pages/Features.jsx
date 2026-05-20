@@ -2,8 +2,6 @@ import OnlineBankingIcon from '../assets/images/icon-online.svg';
 import SimpleBudgetingIcon from '../assets/images/icon-budgeting.svg';
 import FastOnboardingIcon from '../assets/images/icon-onboarding.svg';
 import OpenAPIIcon from '../assets/images/icon-api.svg';
-
-// 1. أضفنا الـ Prop هنا: isPage بقيمة افتراضية false
 export default function Features({ isPage = false }){
   const features = [
     {
@@ -29,11 +27,10 @@ export default function Features({ isPage = false }){
   ];
   
   return (
-    // إذا كانت صفحة مستقلة نزيد الحشو العلوي ليظهر بشكل مريح للعين بعد الـ Navbar
+  
     <section id="features" className={isPage ? "py-32 bg-gray-50 min-h-screen" : ""}>
       <div className="container bg-white py-25 px-6 max-w-full text-center md:text-left md:px-40 ">
         
-        {/* تغيير حجم العنون وتوسيطه في حال كان صفحة مستقلة */}
         <h2 className={`mb-7  ${isPage ? 'text-5xl text-center text-green-500' : 'text-4xl'}`}>
           Why choose Digitalbank?
         </h2>
